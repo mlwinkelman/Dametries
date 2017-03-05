@@ -12,7 +12,13 @@ body {
 p {
   font-size: 1.5em;
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.75em;
   // padding-bottom: 2em;
+}
+.container-fluid {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .wrapper {
   width: 90%;
@@ -23,10 +29,13 @@ p {
   object-fit: cover;
   width: 100%;
 }
-
-.brand-title {
+.brand-container {
   position: absolute;
-  top: 20%;
+  width: 100%;
+  top: 22%;
+}
+.brand-title {
+  position: relative;
   color: white;
   text-align: center;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -35,8 +44,7 @@ p {
 }
 
 .brand-subtitle-white {
-  position: absolute;
-  top: 34%;
+  position: relative;
   color: white;
   text-align: center;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -127,6 +135,22 @@ h2 {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 5em;
   font-weight: 200;
+  line-height: 1em;
+  padding-bottom: .5em;
+  display: inline-block;
+}
+.raleway-xtrabold {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 3em;
+  line-height: 1.25em;
+  padding-bottom: .75em;
+  display: inline-block;
+}
+.raleway-b {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 5em;
+  font-weight: 800;
   line-height: 1em;
   padding-bottom: .5em;
   display: inline-block;

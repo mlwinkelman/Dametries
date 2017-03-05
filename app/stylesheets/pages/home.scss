@@ -6,12 +6,18 @@
 //   -ms-box-sizing: border-box;
 //   box-sizing: border-box;
 // }
-
+body {
+  background-color: #F4F5F8;
+}
 p {
   font-size: 1.5em;
   font-family: 'Open Sans', sans-serif;
+  // padding-bottom: 2em;
 }
-
+.wrapper {
+  width: 90%;
+  margin: 0 0 0 8%;
+}
 .header-photo {
   height: 100vh;
   object-fit: cover;
@@ -53,6 +59,10 @@ p {
     font-size: 1.5em;
     letter-spacing: .2em;
    }
+   .wrapper {
+     width: 90%;
+     margin: 0 5% 0 5%;
+   }
   }
 @media (max-width: 738px) and (orientation: landscape) {
    .brand-title {
@@ -82,7 +92,8 @@ p {
 }
 .section-heading {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #7f896a;
+  color: #7f9856;
+  // color: #7f896a;
   font-size: 5em;
   font-weight: 200;
 }
@@ -95,37 +106,81 @@ h2 {
 .border {
   min-width: 100%;
   padding-bottom: 5px;
-  border-bottom: 4px solid rgba(0, 0, 0, 0.14902);
+  border-bottom: 2px solid rgba(127, 152, 86, 0.5);
 }
-
+.border-bottom {
+  border-bottom: 2px solid rgba(127, 152, 86, 0.5);
+}
+.typography-box {
+  background-color: white;
+  padding: 15px;
+}
 .raleway-xtralight {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 4em;
-  // line-height: .1em;
   font-weight: 200;
+  font-size: 3em;
+  line-height: 1.25em;
+  padding-bottom: .75em;
+  display: inline-block;
 }
-
-.moodboard{
-  display: block;
-  width: 80vw;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 7px;
+.raleway-p {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 5em;
+  font-weight: 200;
+  line-height: 1em;
+  padding-bottom: .5em;
+  display: inline-block;
 }
-
-.logo-container{
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 50px;
+.opensans {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  line-height: 1.25em;
+  padding-bottom: .75em;
+  display: inline-block;
+}
+.opensans-p {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 5em;
+  font-weight: 400;
+  line-height: 1em;
+  padding-bottom: .5em;
+  display: inline-block;
 }
 
 .aveda-logo {
-  height: 100px;
+  height: 80px;
+  width: auto;
+  object-fit: cover;
 }
-
-// .inspiration-img {
-//   width: 400px;
-// }
-// .inspiration-img-lg {
-//   width: 800px;
-// }
+.icons {
+  height: 130px;
+  padding-right: 30px;
+}
+.swatch {
+  display: inline-block;
+  height: 100px;
+  width: 120px;
+  margin: 0 6px 6px 0;
+}
+.color-1 {
+  background-color: #d6d6d6;
+}
+.color-2 {
+  background-color: #7f9856;
+}
+.color-3 {
+  background-color: #a2c4c3;
+}
+.color-4 {
+  background-color: #554f4f;
+}
+.color-5 {
+  background-color: #e9d7b9;
+}
+.color-6 {
+  background-color: #c1b7b3;
+}
+.moodboard {
+  padding-bottom: .8em;
+}

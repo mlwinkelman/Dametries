@@ -118,6 +118,7 @@ h2 {
 }
 .border-bottom {
   border-bottom: 2px solid rgba(127, 152, 86, 0.5);
+  // margin-right: 1em;
 }
 .typography-box {
   background-color: white;
@@ -175,9 +176,10 @@ h2 {
 }
 
 .aveda-logo {
-  max-height: 80px;
+  max-height: 70px;
   width: auto;
   object-fit: cover;
+  margin-bottom: 2em;
 }
 .icons {
   height: 130px;
